@@ -1,0 +1,57 @@
+/* Ukuran font kecil, bold, dan teks berada di tengah */
+thead.table-dark.text-center th {
+    font-size: 13px; /* ukuran font kecil */
+    font-weight: bold; /* huruf tebal */
+    text-align: center; /* teks di tengah */
+    vertical-align: middle; /* vertikal di tengah */
+    background-color: #343a40; /* Warna latar belakang gelap */
+    color: white; /* Warna teks putih */
+
+}
+
+/* Perkecil kolom OK dan NG */
+thead.table-dark.text-center th:nth-child(4),
+thead.table-dark.text-center th:nth-child(5)  {
+    width: 80px;}/* Kolom Sampling */
+thead.table-dark.text-center th:nth-child(6){ /* Kolom OK */
+    width: 80px; /* Sesuaikan dengan kebutuhan */
+}
+/* Tambahkan gaya untuk tabel */
+table {
+    border-collapse: collapse; /* Hilangkan jarak antar sel */
+    width: 100%; /* Agar tabel melebar ke seluruh container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan tabel */
+    border-radius: 9px; /* Tambahkan sudut melengkung */
+    overflow: hidden; /* Agar sudut melengkung terlihat */
+}
+
+/* Gaya untuk sel tabel */
+tbody td {
+    padding: 10px;
+    text-align: center; /* Rata tengah teks */
+    border-bottom: 1px solid #dee2e6; /* Garis bawah antar baris */
+}
+
+/* Efek hover pada baris tabel */
+tbody tr:hover {
+    background-color: #f8f9fa; /* Warna latar belakang saat hover */
+}
+
+/* Bayangan tambahan saat hover pada tabel */
+table:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Bayangan lebih jelas */
+}
+.openCameraButton.disabled {
+    pointer-events: none;
+    opacity: 0.5; /* Tombol terlihat lebih transparan */
+}
+select {
+    text-align: center; /* Mengatur teks menjadi rata tengah secara horizontal */
+    text-align-last: center; /* Untuk browser modern */
+  }
+  
+  option {
+    text-align: center; /* Menjaga teks tetap rata tengah */
+  }
+  
+

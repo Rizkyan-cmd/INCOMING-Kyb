@@ -1,0 +1,144 @@
+.btn {
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan default tombol */
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border: 1px solid #17a2b8;
+        margin-right: 10px; /* Atur jarak antar tombol */
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    color: black;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih kuat saat hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: 1px solid #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    color: black;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih kuat saat hover */
+}
+.btn-danger {
+    background-color: #ee0c0c;
+    color: white;
+    border: 1px solid #6c757d;
+}
+.btn-danger:hover {
+    background-color: #f50e0e;
+    color: black;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih kuat saat hover */
+}
+
+.btn:active {
+    transform: translateY(2px); /* Efek klik, tombol sedikit turun */
+}
+.card-container {
+    position: relative;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+    transition: box-shadow 0.3s ease; /* Efek transisi saat hover */
+}
+
+.card:hover {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih kuat saat hover */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bi {
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* Mengubah teks di dalam header tabel menjadi huruf kecil dan tebal */
+.table-dark th {
+    font-size: 13px; /* Mengubah teks menjadi huruf kecil */
+    font-weight: bold;         /* Membuat teks menjadi tebal */
+    text-align: center; /* teks di tengah */
+    vertical-align: middle; /* vertikal di tengah */
+    text-transform: capitalize; 
+}
+
+
+/* Mengatur teks di header tabel dan kolom tabel agar rata tengah */
+th, td {
+    text-align: center; /* Mengatur teks agar berada di tengah */
+    padding: 10px; /* Menambahkan padding untuk kenyamanan */
+    vertical-align: middle; /* Menempatkan teks di tengah secara vertikal */
+}
+
+/* Menambahkan latar belakang untuk header tabel */
+.table-dark th {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Memastikan lebar tabel sama dengan lebar modal */
+.table-responsive {
+    overflow-x: auto; /* Menambahkan scroll horizontal jika tabel terlalu lebar */
+    width: 100%;
+}
+
+/* Agar tabel menyesuaikan lebar penuh dan kolom berada di tengah */
+.table {
+    width: 100% !important; /* Memastikan tabel mengisi seluruh lebar */
+    border-collapse: collapse; /* Menghilangkan jarak antar border */
+}
+
+/* Mengatur tombol di dalam tabel agar lebih rapi */
+table .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nav-link.dropdown {
+    margin-right: 0; /* Mengurangi jarak kanan */
+}
+
+.dropdown-menu {
+    margin-top: 0; /* Menghapus jarak atas dropdown */
+    border-radius: 0; /* Opsional, agar tampak lebih menyatu */
+}
